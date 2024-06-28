@@ -1,0 +1,17 @@
+<%= mydata.length %> record found
+
+<table border="1">
+    <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>MOBILE</th>
+    </tr>
+    
+    <% for(var i=0; i < mydata.length;i++) { %>
+        <tr>
+            <td><%= mydata[i].uname%></td>
+            <td><%= mydata[i].uage%></td>
+            <td><%= mydata[i].umobile%></td>
+        </tr>
+        <%}%>
+</table>
